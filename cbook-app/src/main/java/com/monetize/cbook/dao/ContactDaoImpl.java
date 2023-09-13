@@ -39,7 +39,7 @@ public class ContactDaoImpl implements ContactDao {
     Connection con = null;
     Statement st = null;
     ResultSet rs = null;
-    List<Contact> contacts = new ArrayList<Contact>();
+    List<Contact> contacts = new ArrayList<>();
     try {
       con = DbConnectionUtil.getConnection();
       st = con.createStatement();
