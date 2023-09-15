@@ -11,3 +11,7 @@
   }
 ]
 Write result into csv, excel, json, xml (Apache POI)
+
+// Factory method
+// Singleton design pattern
+// Builder design pattern
