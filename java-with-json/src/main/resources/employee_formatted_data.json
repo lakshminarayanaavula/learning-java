@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "first_name": "Phaedra",
+    "last_name": "Brandle",
+    "email": "pbrandle0@spiegel.de",
+    "gender": "Female",
+    "currency": "OMR",
+    "salary": "41155.55 د.إ. ",
+    "currencyName": "Omani Rial"
+  }
+]
+Write result into csv, excel, json, xml (Apache POI)
