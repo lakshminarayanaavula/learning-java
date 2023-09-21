@@ -2,18 +2,21 @@ package com.monetize.cbook.service;
 
 import com.monetize.cbook.domain.Contact;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 public class ContactServiceImpl implements  ContactService{
+  private List<Contact> contacts = new ArrayList<>();
   @Override
   public Contact addContact(Contact contact) {
-    return null;
+     contacts.add(contact);
+     return contact;
   }
 
   @Override
   public List<Contact> getContacts() {
-    return null;
+    return contacts;
   }
 
   @Override
