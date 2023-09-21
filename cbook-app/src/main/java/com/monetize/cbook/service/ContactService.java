@@ -13,5 +13,6 @@ public interface ContactService {
   Contact getContact(UUID id);
   Contact updateContact(Contact contact);
   boolean deleteContact(UUID id);
+  boolean enableContact(UUID id);
 
 }

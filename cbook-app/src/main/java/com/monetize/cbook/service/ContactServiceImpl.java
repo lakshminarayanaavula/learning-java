@@ -35,4 +35,9 @@ public class ContactServiceImpl implements  ContactService{
   public boolean deleteContact(UUID id) {
     return false;
   }
+
+  @Override
+  public boolean enableContact(UUID id) {
+    return false;
+  }
 }
