@@ -13,6 +13,7 @@ public class ContactServiceImpl implements  ContactService{
 
   @Override
   public List<Contact> getContacts() {
+    System.out.println("GETCONTACT")
     return null;
   }
 
