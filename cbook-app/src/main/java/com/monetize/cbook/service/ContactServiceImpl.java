@@ -13,7 +13,7 @@ public class ContactServiceImpl implements  ContactService{
 
   @Override
   public List<Contact> getContacts() {
-    return null;
+      System.out.println("We will get contacts from DB");
   }
 
   @Override
