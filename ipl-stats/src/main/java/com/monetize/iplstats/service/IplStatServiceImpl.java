@@ -26,11 +26,7 @@ public class IplStatServiceImpl implements IplStatService{
 
   @Override
   public List<Player> getPlayers(String team) {
-    List<Player> teamPlayers = players.stream()
-            .filter(player -> player.getTeam().equalsIgnoreCase(team))
-            .collect(Collectors.toList());
-
-    return teamPlayers;
+    return null;
   }
 
   @Override
